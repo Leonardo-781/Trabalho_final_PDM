@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545152584172",
+    "project_id": "dropto-2bda1",
+    "storage_bucket": "dropto-2bda1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545152584172:android:920b956582d19fd31418c9",
+        "android_client_info": {
+          "package_name": "com.example.dropto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzQTtmn5YQ9QkDxSPxvXJmfGp4yIonKjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

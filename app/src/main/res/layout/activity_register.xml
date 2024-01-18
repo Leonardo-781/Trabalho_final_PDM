@@ -33,6 +33,7 @@
             android:text="Crie sua conta e acompanhe seus rastreios"/>
 
         <EditText
+            android:id="@+id/nomeTextField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -43,9 +44,10 @@
             android:padding="10dp" />
 
         <EditText
+            android:id="@+id/emailTextField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/edit_text_rounded_bg"
             android:hint="E-mail"
             android:inputType="textEmailAddress"
@@ -53,6 +55,7 @@
             android:padding="10dp" />
 
         <EditText
+            android:id="@+id/senhaTextField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -63,6 +66,7 @@
             android:padding="10dp" />
 
         <EditText
+            android:id="@+id/confirmarSenhaTextField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -73,6 +77,7 @@
             android:padding="10dp" />
 
         <Button
+            android:id="@+id/buttonCadastrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
