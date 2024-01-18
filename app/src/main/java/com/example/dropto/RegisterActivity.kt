@@ -44,13 +44,21 @@ class RegisterActivity : AppCompatActivity() {
             val nome = nomeTextField.text.toString()
             val email = emailTextField.text.toString()
             val senha = senhaTextField.text.toString()
+            val confirmSenha = confirmarSenhaTextField.toString()
 
-            if (email.isEmpty() || senha.isEmpty()) {
+            if (email.isEmpty() || senha.isEmpty() || confirmSenha.isEmpty()) {
                 val snackbar = Snackbar.make(view, "Preencha todos os campos!", Snackbar.LENGTH_SHORT)
                 snackbar.setBackgroundTint(Color.RED)
                 snackbar.setTextColor(Color.WHITE)
                 snackbar.show()
-            } else {
+            }
+//            } else if (senha != confirmSenha) {
+//                val snackbar = Snackbar.make(view, "As senhas digitadas não são iguais!", Snackbar.LENGTH_SHORT)
+//                snackbar.setBackgroundTint(Color.RED)
+//                snackbar.setTextColor(Color.WHITE)
+//                snackbar.show()
+//            }
+            else {
                 auth.createUserWithEmailAndPassword(email,senha).addOnCompleteListener { cadastro ->
                     if (cadastro.isSuccessful) {
                         val snackbar = Snackbar.make(view, "Usuario cadastrado com sucesso!", Snackbar.LENGTH_SHORT)
