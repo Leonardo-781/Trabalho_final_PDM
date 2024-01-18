@@ -32,22 +32,12 @@
             android:layout_marginTop="5dp"
             android:text="Crie sua conta e acompanhe seus rastreios"/>
 
-        <EditText
-            android:id="@+id/nomeTextField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/edit_text_rounded_bg"
-            android:hint="Nome"
-            android:inputType="none"
-            android:minHeight="48dp"
-            android:padding="10dp" />
 
         <EditText
             android:id="@+id/emailTextField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/edit_text_rounded_bg"
             android:hint="E-mail"
             android:inputType="textEmailAddress"
@@ -92,7 +82,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginTop="8dp"
-            android:layout_marginLeft="-48dp"
+            android:layout_marginLeft="-58dp"
             android:text="Já tem uma conta?" />
 
         <Button

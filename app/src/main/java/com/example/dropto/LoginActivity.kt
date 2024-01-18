@@ -57,6 +57,7 @@ class LoginActivity : AppCompatActivity() {
     fun openCadastroPage(view: View) {
         val intent = Intent(this, RegisterActivity::class.java)
         startActivity(intent)
+        finish()
     }
 
     fun openHomePage() {
